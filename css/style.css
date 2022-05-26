@@ -23,10 +23,11 @@ h1 {
     width: 100%;
     max-width: 600px;
     background-color: lightblue;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
 }
 
-#count {
+#count-el {
     text-align: center;
     font-size: 100px;
     font-weight: bold;
@@ -63,7 +64,7 @@ button:hover {
 
 /* saved counts */ 
 
-#saved-counts {
+#save-el {
     text-align: left;
     font-size: 40px;
     margin: 10px 20px;
